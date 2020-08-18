@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #27262e;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Roboto Slab', serif;
+}
+
+.container {
+  background-color: white;
+  width: 400px;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h5 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.heading {
+  margin: 0;
+}
+
+form {
+  margin-top: 14px;
+  border-width: 300px;
+  
+}
+
+.form-control {
+  border: 1px solid rgb(160, 160, 160);
+  border-left: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 4px 6px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-left: none;
+}
+
+span {
+  background-color: rgb(224, 223, 223);
+  padding: 1px 6px;
+  border: 1px solid rgb(160, 160, 160);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-size: 16px;
+  height: 31px;
+
+}
+
+.btn {
+  background-color: #27262e;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: white;
+  width: 350px;
+  border: 0;
+  border-radius: 4px;
+  padding: 6px 0;
+}
+
+#amount {
+  width: 330px;
+  padding: 4px 6px;
+}
+
+#interest {
+  width: 328px;
+  padding: 4px 6px;
+}
+
+
+#years {
+  width: 354px;
+  padding: 4px 6px;
+  border: 1px solid rgb(160, 160, 160);
+  border-radius: 4px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: inline;
+
+  margin-right: 0px;
+}
+
+.input-group-addon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#monthly-payment {
+  width: 200px;
+  padding: 4px 6px;
+  background-color: rgb(224, 223, 223);
+}
+
+#total-payment {
+  width: 226px;
+  padding: 4px 6px;
+  background-color: rgb(224, 223, 223);
+}
+
+#total-interest {
+  width: 236px;
+  padding: 4px 6px;
+  background-color: rgb(224, 223, 223);
+}
+
+#loading {
+  transform: scale(.8);
+  margin-top: 10px;
+}
+
+#loading, #results {
+  display: none;
+}
+
+.alert.alert-danger {
+  border: 1px solid rgb(150, 40, 0);
+  background-color: rgb(150, 40, 0);
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+}
